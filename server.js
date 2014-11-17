@@ -27,7 +27,6 @@ app.post('/', function(req, res) {
       var parsedData = JSON.parse(wunderData.text);
 
       var temp = parsedData.current_observation.temp_f;
-
       if (temp < 45) {
         answer = 'Yes';
       } else {

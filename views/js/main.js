@@ -22,12 +22,11 @@ function showLocation(position) {
 }
 
 $(document).ready(function() {
-
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showLocation, function(err) {
       if (err) {
         $('#answer')
-        .html('<p>You Must Allow Access to Your Location to Find Out.</p>');
+        .html('<p>Must Allow Access to Your Location.</p>');
       }
     });
   } else {
