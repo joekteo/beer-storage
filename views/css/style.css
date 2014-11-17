@@ -25,11 +25,11 @@ button {
 }
 
 #yes {
-    color: green;
+    color: #3FFF41;
     font-size: 20px;
 }
 
 #no {
-    color: red;
+    color: #EB1543;
     font-size: 20px;
 }
