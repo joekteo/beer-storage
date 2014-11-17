@@ -15,8 +15,7 @@
   "bugs": {
     "url": "https://github.com/joekteo/beer-storage/issues"
   },
-  "homepage": "https://github.com/joekteo/beer-storage"
-  },
+  "homepage": "https://github.com/joekteo/beer-storage",
   "devDependencies": {
     "chai": "^1.10.0",
     "chai-http": "^1.0.0",
